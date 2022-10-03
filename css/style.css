@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.container {
+  max-width: 1760px;
+  margin: 0 auto; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px 0 30px; }
+  .navigation__logo {
+    display: flex; }
+  .navigation__links {
+    display: flex;
+    align-items: center; }
+  .navigation__item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    padding-left: 80px; }
+  .navigation__item:hover {
+    color: #59443F; }
+  .navigation__active {
+    color: #59443F; }
+
+.main {
+  background-image: url(../assets/backImage/doctor.png);
+  height: 87vh;
+  background-repeat: no-repeat;
+  background-position: right bottom; }
+  .main__content {
+    padding: 150px 0 0 420px; }
+  .main__item {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606; }
+  .main__button {
+    margin-top: 50px;
+    width: 285px;
+    height: 67px;
+    background: #FFC59E;
+    box-shadow: 0px 4px 20px #FFC59E;
+    border-radius: 33.5px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF; }
+  .main__button:hover {
+    background-color: #59443F; }
+  .main__contacts {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .main__links {
+    display: flex; }
+  .main__link {
+    display: block;
+    padding-right: 50px; }
+  .main__phone-link {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #59443F; }
+
+.footer {
+  background: #59443F;
+  width: 100%;
+  min-height: 420px; }
+  .footer__left-section {
+    padding-top: 80px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center; }
+  .footer__title {
+    padding-left: 22px; }
+  .footer__text {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    color: #FFFFFF; }
+  .footer__subtitle {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF; }
+  .footer__contacts {
+    display: flex;
+    justify-content: space-between; }
+  .footer__navigation-section {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 140px; }
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px; }
+  .footer__nav-item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF; }
+  .footer__nav-item:hover {
+    color: #FFC59E; }
+  .footer__link-item {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column; }
+  .footer__link {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF; }
+  .footer__link:hover {
+    color: #FFC59E; }
+  .footer__end {
+    padding-top: 40px;
+    display: flex; }
+  .footer__end-item {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF; }

@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.container {
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px 0 30px;
+  &__logo {
+    display: flex;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    padding-left: 80px;
+  }
+
+  &__item:hover {
+    color: #59443F;
+  }
+
+  &__active {
+    color: #59443F;
+  }
+}
+
+.main {
+  background-image: url(../assets/backImage/doctor.png);
+  height: 87vh;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  &__content {
+    padding: 150px 0 0 420px;
+  }
+
+  &__item {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606;
+  }
+
+  &__button {
+    margin-top: 50px;
+    width: 285px;
+    height: 67px;
+    background: #FFC59E;
+    box-shadow: 0px 4px 20px #FFC59E;
+    border-radius: 33.5px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &__button:hover {
+    background-color: #59443F;
+  }
+
+  &__contacts {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__link {
+    display: block;
+    padding-right: 50px;
+  }
+
+  &__phone-link {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #59443F;
+  }
+}
+
+.footer {
+  background: #59443F;
+  width: 100%;
+  min-height: 420px;
+
+
+  &__left-section {
+    padding-top: 80px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    padding-left: 22px;
+  }
+
+  &__text {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    color: #FFFFFF;
+  }
+
+  &__subtitle {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__navigation-section {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 140px;
+  }
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+  }
+
+  &__nav-item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  &__nav-item:hover {
+    color: #FFC59E;
+  }
+
+  &__link-item {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  &__link:hover {
+    color: #FFC59E;
+  }
+
+  &__end {
+    padding-top: 40px;
+    display: flex;
+  }
+
+  &__end-item {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+}
