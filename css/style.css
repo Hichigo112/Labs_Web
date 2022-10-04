@@ -176,7 +176,153 @@
     color: #59443F; }
   .history__img {
     margin-top: 60px;
-    width: 900px;
-    height: 470px; }
+    margin-left: 120px; }
 
-/*# sourceMappingURL=style.css.map */
+.subtitle1 {
+  margin-top: 40px;
+  margin-left: 990px; }
+  .subtitle1__name {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606; }
+  .subtitle1__definition {
+    margin-top: 30px;
+    font-family: 'Futura New';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F; }
+  .subtitle1__text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura New';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F; }
+  .subtitle1__list {
+    margin-left: 19px;
+    list-style-type: -moz-devanagari; }
+
+.therapy {
+  margin: 120px 0 0 120px;
+  display: flex; }
+  .therapy__navigation {
+    display: flex;
+    flex-direction: column; }
+  .therapy__nav-item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    padding-bottom: 20px; }
+  .therapy__other {
+    margin-left: 300px; }
+  .therapy__nav-item:hover {
+    color: #59443F; }
+  .therapy__entry {
+    margin-bottom: 80px; }
+  .therapy__text {
+    margin-bottom: 30px;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606; }
+  .therapy__list {
+    display: flex; }
+  .therapy__list-item {
+    display: flex;
+    margin-right: 40px;
+    width: 344px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; }
+  .therapy__name {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #080606; }
+  .therapy__test {
+    padding-top: 25px;
+    padding-left: 15px; }
+  .therapy__date {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C3B9B5; }
+  .therapy__text-item {
+    padding-bottom: 25px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F; }
+  .therapy__ul-list {
+    padding-left: 20px;
+    margin-bottom: 20px; }
+  .therapy__ul-item {
+    padding-bottom: 5px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F; }
+  .therapy__price {
+    display: flex;
+    justify-content: space-between; }
+  .therapy__price-item {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #59443F; }
+  .therapy__pagination {
+    display: flex;
+    margin-right: 200px; }
+  .therapy__pagination-item {
+    margin-right: 15px;
+    list-style-type: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #C3B9B5; }
+  .therapy__pagination-active {
+    color: #080606; }
+  .therapy__price-list {
+    margin-top: 30px;
+    margin-left: 15px; }
+  .therapy__item-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    width: 909px;
+    height: 48px;
+    background: #EDE9E8;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: black; }
+  .therapy__item-price:hover {
+    background: #59443F; }
+  .therapy__text-price {
+    color: black; }

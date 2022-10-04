@@ -245,7 +245,211 @@
 
   &__img {
     margin-top: 60px;
-    width: 900px;
-    height: 470px;
+    margin-left: 120px;
+  }
+}
+
+.subtitle1 {
+  margin-top: 40px;
+  margin-left: 990px;
+
+  &__name {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606;
+  }
+
+  &__definition {
+    margin-top: 30px;
+    font-family: 'Futura New';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F;
+  }
+
+  &__text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura New';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F;
+  }
+
+  &__list {
+    margin-left: 19px;
+    list-style-type: -moz-devanagari;
+  }
+}
+
+
+.therapy {
+  margin: 120px 0 0 120px;
+  display: flex;
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav-item {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+    padding-bottom: 20px;
+  }
+
+  &__other {
+    margin-left: 300px;
+  }
+
+  &__nav-item:hover {
+    color: #59443F;
+  }
+
+  &__entry {
+    margin-bottom: 80px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #080606;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__list-item {
+    display: flex;
+    margin-right: 40px;
+    width: 344px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  &__name {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #080606;
+  }
+
+  &__test {
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+
+  &__date {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C3B9B5;
+  }
+
+  &__text-item {
+    padding-bottom: 25px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F;
+  }
+  &__ul-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__ul-item {
+    padding-bottom: 5px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #59443F;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__price-item {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #59443F;
+  }
+
+  &__pagination {
+    display: flex;
+    margin-right: 200px;
+  }
+
+  &__pagination-item {
+    margin-right: 15px;
+    list-style-type: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #C3B9B5;
+  }
+
+  &__pagination-active {
+    color: #080606;
+  }
+
+  &__price-list {
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  &__item-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    width: 909px;
+    height: 48px;
+    background: #EDE9E8;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-radius: 15px;
+    color: black;
+  }
+
+  &__item-price:hover {
+    background: #59443F;
+  }
+
+  &__text-price {
+    color: black;
   }
 }
