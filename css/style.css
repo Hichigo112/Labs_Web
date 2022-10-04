@@ -15,7 +15,8 @@
     display: flex; }
   .navigation__links {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-right: 30px; }
   .navigation__item {
     text-decoration: none;
     font-family: 'Futura New';
@@ -49,7 +50,7 @@
     width: 285px;
     height: 67px;
     background: #FFC59E;
-    box-shadow: 0px 4px 20px #FFC59E;
+    box-shadow: 0 4px 20px #FFC59E;
     border-radius: 33.5px;
     font-family: 'Futura New';
     font-style: normal;
@@ -148,3 +149,34 @@
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF; }
+
+.history {
+  display: flex;
+  padding-left: 230px;
+  align-items: center; }
+  .history__company-item {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606; }
+  .history__subtitles {
+    padding-top: 50px; }
+  .history__subtitle-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-bottom: 25px;
+    font-family: 'Futura New';
+    font-size: 20px;
+    line-height: 30px;
+    color: #C3B9B5; }
+  .history__subtitle-item:hover {
+    color: #59443F; }
+  .history__img {
+    margin-top: 60px;
+    width: 900px;
+    height: 470px; }
+
+/*# sourceMappingURL=style.css.map */
