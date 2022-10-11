@@ -19,7 +19,7 @@
                 <a class="navigation__item" href="index.html">Главная</a>
                 <a class="navigation__item" href="info.html">О Нас</a>
                 <a class="navigation__item" href="therapy.html">Терапия</a>
-                <a class="navigation__item" href="">Контакты</a>
+                <a class="navigation__item" href="contacts.html">Контакты</a>
                 <a class="navigation__item" href="">Блог</a>
             </div>
         </nav>
@@ -29,15 +29,20 @@
     <div class="container">
         <section class="therapy">
             <div class="therapy__navigation">
-                <a href="" class="therapy__nav-item">Записаться на прием</a>
-                <a href="" class="therapy__nav-item">Терапия в нашей клинике</a>
-                <a href="" class="therapy__nav-item">Подзаголовок 1</a>
-                <a href="" class="therapy__nav-item">Подзаголовок 1</a>
-                <a href="" class="therapy__nav-item">Цены</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Меню</button>
+                    <div class="dropdown-content">
+                        <a href="#menu_1" class="therapy__nav-item">Записаться на прием</a>
+                        <a href="#menu_2" class="therapy__nav-item">Терапия в нашей клинике</a>
+                        <a href="#menu_3" class="therapy__nav-item">Подзаголовок Первый</a>
+                        <a href="#menu_4" class="therapy__nav-item">Подзаголовок Второй</a>
+                        <a href="#menu_5" class="therapy__nav-item">Цены</a>
+                    </div>
+                </div>
             </div>
             <div class="therapy__other">
                 <div class="therapy__entry">
-                    <p class="therapy__text">Записаться на прием к терапевту</p>
+                    <p class="therapy__text" id="menu_1">Записаться на прием к терапевту</p>
                     <div class="therapy__list">
                         <div class="therapy__list-item">
                             <div class="therapy__test">
@@ -69,7 +74,7 @@
                     </div>
                 </div>
                 <div class="therapy__description">
-                    <p class="therapy__text">Терапия в нашей клинике</p>
+                    <p class="therapy__text" id="menu_2">Терапия в нашей клинике</p>
                     <div class="therapy__par">
                         <p class="therapy__text-item">Терапия - область гуманной и ветеринарной медицины, занимающаяся непосредственно лечением патологий, <br> облегчением состояния больного и устранением симптомов заболеваний.</p>
                         <p class="therapy__text-item">Терапевтическое отделение клиники Айболит занимается диагностикой и лечением следующих болезней:</p>
@@ -89,7 +94,7 @@
                 </div>
 
                 <div class="therapy__description">
-                    <p class="therapy__text">Подзаголовок 1</p>
+                    <p class="therapy__text" id="menu_3">Подзаголовок Первый</p>
                     <div class="therapy__par">
                         <p class="therapy__text-item">В нашей клинике имеются как врачи-терапевты общей практики, так и узкие специалисты по ряду <br>перечисленных областей, что даёт возможность излечивать тяжелые и редкие случаи патологий.</p>
                         <img src="assets/test.png" alt="">
@@ -110,7 +115,7 @@
                 </div>
 
                 <div class="therapy__description">
-                    <p class="therapy__text">Подзаголовок 2</p>
+                    <p class="therapy__text" id="menu_4">Подзаголовок Второй</p>
                     <div class="therapy__par">
                         <p class="therapy__text-item">Большинство исследований, требующих седации (эндоскопия, МРТ, лапароскопия), так же доступны в течение<br> суток. Более сложные анализы, такие как бактериологический посев, гормоны, гистологическое исследование<br> мы направляем в дистанционную лабораторию.</p>
                         <p class="therapy__text-item">Получив результаты исследований врач приступает к анализу причин и механизмов развития болезни и<br> назначает лечение. Оно может быть медикаментозным (домашним или стационарным) или оперативным<br> (экстренным или плановым).</p>
@@ -120,7 +125,7 @@
                 </div>
 
                 <div class="therapy__description">
-                    <p class="therapy__text">Подзаголовок 2</p>
+                    <p class="therapy__text"  id="menu_5">Цены</p>
                     <div class="therapy__price">
                         <p class="therapy__price-item">Цены указаны без учета расходных материалов</p>
                         <div class="therapy__pagination">
