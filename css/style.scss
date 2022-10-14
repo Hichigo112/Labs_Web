@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   border: 0;
 }
 
@@ -626,7 +627,6 @@ active-modal {
   border-radius: 6px;
   padding: 5px 0;
 
-  /* Position the tooltip */
   position: absolute;
   z-index: 1;
 }
@@ -638,12 +638,28 @@ active-modal {
 .gallery {
   margin-top: 40px;
   display: flex;
+
+  &__buttons {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+  }
+
   &__photo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   &__items {
     margin: 0 auto;
+  }
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+
+  &__p1 {
+    max-width: 400px;
   }
 }
